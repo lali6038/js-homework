@@ -1,0 +1,27 @@
+
+#1 
+~/Sites/my-awesome-directory/nested-directory
+~/Sites/my-awesome-directory/nested-directory/hello.txt
+~/Sites/terminals-are-fun.txt
+
+
+
+mkdir -p Sites/my-awesome-directory/nested-directory
+cd Sites/my-awesome-directory/nested-directory
+touch hello.txt
+mv hello.txt terminals-are-fun.txt
+
+
+
+#2 ~/Sites/1/2/3/4/5/6/7/8/9/hello/its/me/adele.jpg
+~/Sites/i/was/wondering/if/after/all/these/years/you world/like/to/meet.jpg
+
+
+mkdir -p Sites/1/2/3/4/5/6/7/8/9/hello/its/me
+cd Sites/1/2/3/4/5/6/7/8/9/hello/its/me
+touch adele.jpg
+cd ~
+cd Sites
+mkdir -p  i/was/wondering/if/after/all/these/years/you world/like/to
+cd i/was/wondering/if/after/all/these/years/you world/like/to
+touch meet.jpg
