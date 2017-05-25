@@ -30,7 +30,7 @@ console.log ( " The number : "   +  inArray(numberList, 5));
 
 //----------------------------------------------------------------------------------------
 
-//#3 Write a function that returns the elements on odd positions in an array. For the list given above, it would print 5, 20, 90 *this does not work* 
+//#3 Write a function that returns the elements on odd positions in an array. For the list given above, it would print 5, 20, 90 *this works!* 
 
 
 function odd(numberList){
