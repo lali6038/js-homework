@@ -33,20 +33,17 @@ console.log ( " The number : "   +  inArray(numberList, 5));
 //#3 Write a function that returns the elements on odd positions in an array. For the list given above, it would print 5, 20, 90 *this does not work* 
 
 
-function odd(numberList, currentElement) {
-for (var i = 0; i < numberList.length; i ++) 
-        var currentElement= numberList[i];
-        
-     {
-        if (currentElement %5 ==0) {
-        	return "The number in the array is even "; 
-        }
-    }
-       return "The number in the array is odd " ; 
+function odd(numberList){
+ var ar = [];
+ for (var i = 1; i < numberList.length; i++) {
+   if(i % 2 === 1) { // index is odd
+       ar.push(numberList[i]);
    }
+}
+return ar;
+}
+console.log(odd(numberList));
 
-
-console.log(odd(numberList, 5)); 
 
 
 //----------------------------------------------------------------------------------------
