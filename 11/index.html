@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>🍪</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="app.js"></script>
+	<script src="video.js"></script>
+		<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</head>
+<body>
+<div class="container">
+<!--Add a row using bootstrap-->
+<div class="row">
+<!--make column 12 wide on medium size screens-->
+<div class="col-md-12">
+<h1>Welcome to our app</h1>
+	</div>
+</div>
+
+<div class="row">
+<div class="col-md-4">
+	<h2>Get the Weather</h2>
+
+	<input type="text" id="longitude" placeholder="Enter in a longitude" /><br>
+	<input type="text" id="latitude" placeholder="Enter in a latitude" /></br>
+	<button id="get-weather" class="btn btn-sprimary">Get the Weather yo </button>
+	<marquee id="loading-marquee" scrollamount="10">Loading...</marquee>
+	<div class="panel">
+	<div class="panel-body">
+	<p>Current Location: <span id="current-location"></span></p>
+	<p>Current Temperature: <span id="current-temp"></span></p>
+	<p>Current Humidity: <span id="current-humidity"></span></p>
+	<p>Current Wind Speed: <span id="current-wind"></span></p>
+	</div>
+	</div>
+	</div>
+	</div>
+	</div>
+	</body>
+
+		</div>
+	</div>
+	<h2>Random Video</h2>
+		<button id="random-video-btn" class="btn btn-default">Go!</button>
+	<div id="random-video"></div>
+	<input id="random-video-id" placeholder="Video ID"><br>
+      <button id="add-video" class="btn btn-primary">Add To Pool</button>
+      </div>
+
+
+<h3>Risk It</h3>
+<button id="risk-btn" class="btn btn-notdefault">Risk It</button>
+
+</div>
+
+</body>
+</html>
